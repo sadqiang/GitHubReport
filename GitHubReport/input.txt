@@ -1,0 +1,12 @@
+\ln(P) = a_0 - \frac{a_1}{a_2 + T}
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz
+\cos(\theta+\phi) = \cos\theta \cos\phi -\sin\theta \sin\phi
+\int_D ({\nabla\cdot} F)dV = \int_{\partial D} F\cdot ndS
+\vec{\nabla} \times \vec{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i}
+\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
+(\nabla_X Y)^k = X^i (\nabla_i Y)^k = X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)
+\lim_{\Delta x\to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}  
+\mathbf{A} = \begin{pmatrix}a & b\\ c & d\\ 1 & 0\\ 0 & 1 \end{pmatrix}
+f(n) = \begin{cases} n/2,  & \text{if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases}
+\sum_{i=0}^n i^2 = \frac{n(n+1)(2n+1)}{6}

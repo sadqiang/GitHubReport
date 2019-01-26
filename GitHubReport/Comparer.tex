@@ -1,0 +1,13 @@
+\documentclass[preview,multi,border=1cm]{standalone}
+\usepackage[a5paper,margin=0cm,landscape]{geometry}
+\usepackage{graphicx}
+\usepackage{pgffor}
+\pdfximage{Skia.pdf}
+\begin{document}
+\foreach \i in {1,...,\the\pdflastximagepages}{%
+	\preview
+		\includegraphics[scale=2,page=\i]{LaTeX.pdf}\par\bigskip
+		\includegraphics[scale=2,page=\i]{Skia.pdf}\par\vspace{1cm}
+	\endpreview
+}
+\end{document}

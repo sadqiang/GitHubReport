@@ -1,0 +1,16 @@
+\documentclass[preview,multi,12pt]{standalone}
+\usepackage{xcolor,amsmath}
+\fboxsep=0pt\relax
+\fboxrule=0.1pt\relax
+\begin{document}
+\newread\myfile
+\openin\myfile=input.txt\relax
+\loop   
+	\read\myfile to \mydata 
+	\unless\ifeof\myfile                
+		\preview
+		\fcolorbox{red}{white}{$\displaystyle\mydata$}
+		\endpreview
+\repeat
+\closein\myfile
+\end{document}
